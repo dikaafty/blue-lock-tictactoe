@@ -131,6 +131,12 @@ img {
 
 .choosePlayerContainer h1 {
   grid-area: title;
+
+  font-family: "impactregular";
+  font-size: 3rem;
+  text-shadow: 2px 2px #ffffff;
+  letter-spacing: 3px;
+  margin: 10px 0;
 }
 
 .playerOne {

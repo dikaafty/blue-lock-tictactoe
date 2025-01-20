@@ -65,3 +65,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* CSS Reset End */
+
+body {
+  height: 130vh;
+  background-image: url(blue-lock-images/background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -93,8 +93,8 @@ img {
 }
 
 .gameboardContainer {
-  width: 88%;
-  height: 90%;
+  width: 1130px;
+  height: 685px;
   background-color: rgba(0, 0, 0, 0.95);
   color: #ffffff;
   border-radius: 20px;

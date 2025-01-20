@@ -146,3 +146,47 @@ img {
 .playerTwo {
   grid-area: playerTwo;
 }
+
+.charactersContainer {
+  background-color: #000;
+  border-radius: 10px;
+  transition: all 500ms ease-in-out;
+
+  display: grid;
+  grid-template-columns: repeat(2, 160px);
+  grid-template-rows: repeat(2, 160px);
+  place-items: center;
+}
+
+.charactersContainer.first:hover {
+  transform: translateX(5px) translateY(-5px);
+  box-shadow: -5px 5px #fff;
+}
+
+.charactersContainer.second:hover {
+  transform: translateX(-5px) translateY(-5px);
+  box-shadow: 5px 5px #fff;
+}
+
+.charactersContainer div {
+  width: 140px;
+  height: 140px;
+  background-color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.charactersContainer div:hover {
+  box-shadow: inset 0 0 30px #000;
+}
+
+.charactersContainer div img {
+  width: 120px;
+  aspect-ratio: 1;
+  border-radius: 5px;
+}

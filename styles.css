@@ -110,3 +110,33 @@ img {
   letter-spacing: 3px;
   margin: 20px 0 0;
 }
+
+.choosePlayerContainer {
+  width: 90%;
+  background-image: url(blue-lock-images/versus-background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+  border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 100px, 1fr;
+  grid-template-areas: 
+  "title title"
+  "playerOne playerTwo";
+  place-items: center;
+}
+
+.choosePlayerContainer h1 {
+  grid-area: title;
+}
+
+.playerOne {
+  grid-area: playerOne;
+}
+
+.playerTwo {
+  grid-area: playerTwo;
+}

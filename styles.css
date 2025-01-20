@@ -200,11 +200,10 @@ body {
 
 a{
   display: block;
-  width: 250px;
-  height: 50px;
-  line-height: 50px;
+  width: 300px;
+  height: 70px;
   font-family: "impactregular";
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: bold;
   text-decoration: none;
   background: #fff;
@@ -214,6 +213,10 @@ a{
   letter-spacing: 3px;
   border: none;
   transition: all .35s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon{
@@ -223,7 +226,7 @@ a{
   position: absolute;
   transform: rotate(45deg);
   right: 0;
-  top: 0;
+  top: 18%;
   z-index: -1;
   transition: all .35s;
 }
@@ -240,6 +243,7 @@ a{
 
 a:hover{
   width: 200px;
+  font-size: 1.4rem;
   border: 3px solid #fff;
   background: transparent;
   color: #fff;
@@ -247,5 +251,5 @@ a:hover{
 
 a:hover + .icon{
   border: 3px solid #fff;
-  right: -25%;
+  right: -22%;
 }

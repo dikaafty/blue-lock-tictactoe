@@ -111,6 +111,8 @@ body {
   margin: 20px 0 0;
 }
 
+/* GAME STARTING STYLING SECTION START */
+
 .choosePlayerContainer {
   width: 90%;
   height: 500px;
@@ -268,3 +270,5 @@ a:hover + .icon{
   border: 3px solid #fff;
   right: -22%;
 }
+
+/* GAME STARTING STYLING SECTION END */

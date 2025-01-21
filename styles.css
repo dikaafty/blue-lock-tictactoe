@@ -305,4 +305,14 @@ a:hover + .icon{
   gap: 15px;
 }
 
+.cell {
+  background-color: #fff;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+}
+
+.cell:hover {
+  transform: scale(1.05);
+}
+
 /* GAME PLAYING STYLING SECTION END */

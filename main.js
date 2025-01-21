@@ -6,6 +6,10 @@
     const getBoard = () => {
       return board;
     };
+
+    const resetBoard = () => {
+      board = new Array(9);
+    };
   })();
 
 })();

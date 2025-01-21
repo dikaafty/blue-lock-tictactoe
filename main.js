@@ -30,6 +30,9 @@
       // Player two elements
       const playerTwoChars = document.querySelectorAll(".charactersContainer.second div");
       const chosenCharTwo = document.querySelector(".playerTwo .chosenCharOutput");
+
+      // Cell elements
+      const cells = document.querySelectorAll(".cell");
     };
   })();
 

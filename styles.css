@@ -109,6 +109,7 @@ body {
 
 .choosePlayerContainer {
   width: 90%;
+  height: 500px;
   background-image: url(blue-lock-images/versus-background.jpeg);
   background-position: center;
   background-repeat: no-repeat;

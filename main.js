@@ -36,10 +36,10 @@
 
       // Cell elements
       const cells = document.querySelectorAll(".cell");
-    };
 
-    // Player's turn output element
-    const playerTurnOutput = document.querySelector(".playerTurn");
+      // Player's turn output element
+      const playerTurnOutput = document.querySelector(".playerTurn");
+    };
   })();
 
 })();

@@ -26,6 +26,8 @@
       // Player one elements
       const playerOneChars = document.querySelectorAll(".charactersContainer.first div");
       const chosenCharOne = document.querySelector(".playerOne .chosenCharOutput");
+
+      // Player two elements
     };
   })();
 

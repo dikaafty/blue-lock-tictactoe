@@ -16,6 +16,7 @@
 
   const displayController = (() => {
     let playerOneChar;
+    let playerTwoChar;
 
     const init = () => {
 

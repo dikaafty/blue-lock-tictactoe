@@ -293,10 +293,16 @@ a:hover + .icon{
 }
 
 .board {
-  width: 50%;
-  height: 85%;
+  width: 45%;
+  height: 90%;
   background-color: rgba(0, 0, 0, 0.9);
   border-radius: 10px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 125px);
+  grid-template-rows: repeat(3, 125px);
+  place-content: center;
+  gap: 15px;
 }
 
 /* GAME PLAYING STYLING SECTION END */

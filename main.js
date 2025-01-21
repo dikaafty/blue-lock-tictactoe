@@ -16,6 +16,10 @@
 
   const displayController = (() => {
     const init = () => {
+
+    };
+
+    const cacheDOM = () => {
       
     };
   })();

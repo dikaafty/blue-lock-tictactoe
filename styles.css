@@ -315,4 +315,11 @@ a:hover + .icon{
   transform: scale(1.05);
 }
 
+.playerTurn {
+  font-family: "impactregular";
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  margin-top: 30px;
+}
+
 /* GAME PLAYING STYLING SECTION END */

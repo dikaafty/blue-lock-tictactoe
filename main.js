@@ -22,6 +22,8 @@
     const cacheDOM = () => {
       const choosePlayerContainer = document.querySelector(".choosePlayerContainer");
       const boardWrapper = document.querySelector(".boardWrapper");
+
+      // Player one element
     };
   })();
 

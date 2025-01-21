@@ -28,6 +28,8 @@
       const chosenCharOne = document.querySelector(".playerOne .chosenCharOutput");
 
       // Player two elements
+      const playerTwoChars = document.querySelectorAll(".charactersContainer.second div");
+      const chosenCharTwo = document.querySelector(".playerTwo .chosenCharOutput");
     };
   })();
 

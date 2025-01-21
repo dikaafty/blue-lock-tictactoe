@@ -20,7 +20,7 @@
     };
 
     const cacheDOM = () => {
-      
+      const choosePlayerContainer = document.querySelector(".choosePlayerContainer");
     };
   })();
 

@@ -19,7 +19,7 @@
     let playerTwoChar;
 
     const init = () => {
-
+      cacheDOM();
     };
 
     const cacheDOM = () => {

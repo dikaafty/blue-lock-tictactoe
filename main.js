@@ -15,6 +15,8 @@
   })();
 
   const displayController = (() => {
+    let playerOneChar;
+
     const init = () => {
 
     };

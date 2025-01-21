@@ -293,8 +293,8 @@ a:hover + .icon{
 }
 
 .board {
-  width: 45%;
-  height: 90%;
+  width: 456px;
+  height: 450px;
   background-color: rgba(0, 0, 0, 0.9);
   border-radius: 10px;
 

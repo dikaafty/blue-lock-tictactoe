@@ -23,7 +23,7 @@
       const choosePlayerContainer = document.querySelector(".choosePlayerContainer");
       const boardWrapper = document.querySelector(".boardWrapper");
 
-      // Player one element
+      // Player one elements
       const playerOneChars = document.querySelectorAll(".charactersContainer.first div");
       const chosenCharOne = document.querySelector(".playerOne .chosenCharOutput");
     };

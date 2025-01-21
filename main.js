@@ -10,6 +10,8 @@
     const resetBoard = () => {
       board = new Array(9);
     };
+
+    return { getBoard, resetBoard };
   })();
 
 })();

@@ -277,4 +277,19 @@ a:hover + .icon{
 
 /* GAME PLAYING STYLING SECTION START */
 
+.boardWrapper {
+  width: 90%;
+  height: 500px;
+  background-image: url(blue-lock-images/versus-background.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000000;
+  border-radius: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /* GAME PLAYING STYLING SECTION END */

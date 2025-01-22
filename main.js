@@ -48,7 +48,7 @@
     };
 
     const _bindEvents = () => {
-
+      startGameBtn.addEventListener("click", _startGame);
     };
 
     const _setPlayerChar = () => {

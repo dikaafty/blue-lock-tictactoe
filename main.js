@@ -46,6 +46,10 @@
       _highlightSelectedChar();
     };
 
+    const _bindEvents = () => {
+
+    };
+
     const _setPlayerChar = () => {
       // Selecting player one character
       playerOneChars.forEach((char) => {

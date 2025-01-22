@@ -121,7 +121,7 @@
       currentPlayer = (currentPlayer === playerOneChar) ? playerTwoChar : playerOneChar;
     };
 
-    const setPlayerTurn = () => {
+    const displayPlayerTurn = () => {
 
     };
 

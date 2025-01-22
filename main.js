@@ -67,6 +67,8 @@
       chosenCharTwo.textContent = playerTwoChar;
     };
 
+    return { init };
+
   })();
 
 })();

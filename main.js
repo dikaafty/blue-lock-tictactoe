@@ -34,6 +34,11 @@
 
     let playerOneChar;
     let playerTwoChar;
+
+    const init = () => {
+      
+    };
+
   })();
 
 })();

@@ -11,7 +11,7 @@
       board = new Array(9);
     };
 
-    const setBoardVal = (i, val) {
+    const setBoardVal = (i, val) => {
       board[i] = val;
     }
 

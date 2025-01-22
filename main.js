@@ -146,6 +146,10 @@
       return link;
     };
 
+    const _setPlayerTwoSign = () => {
+      
+    };
+
     const operate = () => {
 
     };

@@ -117,6 +117,10 @@
       }
     };
 
+    const togglePlayer = () => {
+      
+    };
+
     const setPlayerTurn = () => {
 
     };

@@ -19,7 +19,7 @@
       board[i] = val;
     }
 
-    return { getBoard, resetBoard, setBoardVal };
+    return { getBoard, getBoardItem, resetBoard, setBoardVal };
   })();
 
   const displayController = (() => {

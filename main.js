@@ -32,6 +32,9 @@
     // Start game button wrapper element
     const startGameBtnWrapper = document.querySelector(".wrapper");
 
+    // Start game button element
+    const startGameBtn = document.querySelector(".startGameBtn");
+
     // Player's turn output element
     const playerTurnOutput = document.querySelector(".playerTurn");
 

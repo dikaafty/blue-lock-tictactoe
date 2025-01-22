@@ -59,6 +59,10 @@
       chosenCharOne.textContent = playerOneChar;
     };
 
+    const displayPlayerTwoChar = () => {
+      chosenCharTwo.textContent = playerTwoChar;
+    };
+
   })();
 
 })();

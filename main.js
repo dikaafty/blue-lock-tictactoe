@@ -64,6 +64,7 @@
           currentPlayer = playerOneChar;
 
           _displayPlayerOneChar();
+          _displayPlayerTurn();
         });
       });
 

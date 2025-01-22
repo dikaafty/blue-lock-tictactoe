@@ -7,6 +7,10 @@
       return board;
     };
 
+    const getBoardItem = (i) => {
+      return board[i];
+    };
+
     const resetBoard = () => {
       board = new Array(9);
     };

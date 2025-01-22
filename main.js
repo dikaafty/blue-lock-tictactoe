@@ -44,6 +44,7 @@
 
     let playerOneChar;
     let playerTwoChar;
+    let currentPlayer;
 
     const init = () => {
       _bindEvents();
@@ -116,7 +117,7 @@
     };
 
     const setPlayerTurn = () => {
-      
+
     };
 
     return { init };

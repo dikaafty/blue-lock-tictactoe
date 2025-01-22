@@ -122,7 +122,7 @@
     };
 
     const _displayPlayerTurn = () => {
-
+      playerTurnOutput.textContent = `${currentPlayer}'s turn`;
     };
 
     return { init };

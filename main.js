@@ -53,6 +53,8 @@
       playerTwoChars.forEach((char) => {
         char.addEventListener("click", () => {
           playerTwoChar = char.dataset.name;
+
+          displayPlayerTwoChar();
         });
       });
     };

@@ -42,6 +42,7 @@
     let playerTwoChar;
 
     const init = () => {
+      _bindEvents();
       _setPlayerChar();
       _highlightSelectedChar();
     };

@@ -37,6 +37,7 @@
 
     const init = () => {
       _setPlayerChar();
+      _highlightSelectedChar();
     };
 
     const _setPlayerChar = () => {

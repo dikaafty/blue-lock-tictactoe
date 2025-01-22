@@ -29,6 +29,9 @@
     // Cell elements
     const cells = document.querySelectorAll(".cell");
 
+    // Start game button wrapper element
+    const startGameBtnWrapper = document.querySelector(".wrapper");
+
     // Player's turn output element
     const playerTurnOutput = document.querySelector(".playerTurn");
 
@@ -89,7 +92,7 @@
     };
 
     const _startGame = () => {
-      
+
     };
 
     return { init };

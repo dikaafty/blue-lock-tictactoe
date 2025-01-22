@@ -118,7 +118,7 @@
     };
 
     const togglePlayer = () => {
-      
+      currentPlayer = (currentPlayer === playerOneChar) ? playerTwoChar : playerOneChar;
     };
 
     const setPlayerTurn = () => {

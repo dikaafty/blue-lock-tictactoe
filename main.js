@@ -147,7 +147,27 @@
     };
 
     const _setPlayerTwoSign = () => {
-      
+      let link;
+
+      switch (playerTwoChar) {
+        case "Itoshi Rin":
+          link = "./blue-lock-images/rin-pfp.jpg";
+          break;
+
+        case "Tabito Karasu":
+          link = "./blue-lock-images/karasu-pfp.jpg";
+          break;
+
+        case "Ryusei Shidou":
+          link = "./blue-lock-images/shidou-pfp.jpeg";
+          break;
+
+        case "Shouei Barou":
+          link = "./blue-lock-images/barou-pfp.jpg";
+          break;
+      }
+
+      return link;
     };
 
     const operate = () => {

@@ -55,6 +55,10 @@
       });
     };
 
+    const displayPlayerOneChar = () => {
+      chosenCharOne.textContent = playerOneChar;
+    };
+
   })();
 
 })();

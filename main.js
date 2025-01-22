@@ -95,7 +95,15 @@
     };
 
     const _startGame = () => {
+      if(playerOneChar && playerTwoChar) {
+        // Add hide class to starting section
+        choosePlayerContainer.classList.add("hide");
+        startGameBtnWrapper.classList.add("hide");
 
+        // Remove hide class from playing section
+        boardWrapper.classList.remove("hide");
+        playerTurnOutput.classList.remove("hide");
+      }
     };
 
     return { init };

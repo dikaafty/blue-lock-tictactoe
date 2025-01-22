@@ -122,8 +122,12 @@
       }
     };
 
-    const operate = () => {
+    const _setPlayerOneSign = () => {
       
+    };
+
+    const operate = () => {
+
     };
 
     const _togglePlayer = () => {

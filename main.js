@@ -117,7 +117,7 @@
       }
     };
 
-    const togglePlayer = () => {
+    const _togglePlayer = () => {
       currentPlayer = (currentPlayer === playerOneChar) ? playerTwoChar : playerOneChar;
     };
 

@@ -118,6 +118,10 @@
       }
     };
 
+    const operate = () => {
+      
+    };
+
     const _togglePlayer = () => {
       currentPlayer = (currentPlayer === playerOneChar) ? playerTwoChar : playerOneChar;
     };

@@ -36,6 +36,10 @@
     let playerTwoChar;
 
     const init = () => {
+
+    };
+
+    const _setPlayerChar = () => {
       
     };
 

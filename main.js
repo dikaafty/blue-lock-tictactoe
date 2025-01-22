@@ -44,6 +44,8 @@
       playerOneChars.forEach((char) => {
         char.addEventListener("click", () => {
           playerOneChar = char.dataset.name;
+
+          displayPlayerOneChar();
         });
       });
 

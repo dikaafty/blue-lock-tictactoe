@@ -123,7 +123,27 @@
     };
 
     const _setPlayerOneSign = () => {
-      
+      let link;
+
+      switch (playerOneChar) {
+        case "Yoichi Isagi":
+          link = "./blue-lock-images/isagi-pfp.jpg";
+          break;
+
+        case "Michael Kaiser":
+          link = "./blue-lock-images/kaiser-pfp.jpeg";
+          break;
+
+        case "Rensuke Kunigami":
+          link = "./blue-lock-images/kunigami-pfp.jpg";
+          break;
+
+        case "Seishiro Nagi":
+          link = "./blue-lock-images/nagi-pfp.jpg";
+          break;
+      }
+
+      return link;
     };
 
     const operate = () => {

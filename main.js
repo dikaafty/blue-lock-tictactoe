@@ -45,7 +45,7 @@
         char.addEventListener("click", () => {
           playerOneChar = char.dataset.name;
 
-          displayPlayerOneChar();
+          _displayPlayerOneChar();
         });
       });
 
@@ -54,16 +54,16 @@
         char.addEventListener("click", () => {
           playerTwoChar = char.dataset.name;
 
-          displayPlayerTwoChar();
+          _displayPlayerTwoChar();
         });
       });
     };
 
-    const displayPlayerOneChar = () => {
+    const _displayPlayerOneChar = () => {
       chosenCharOne.textContent = playerOneChar;
     };
 
-    const displayPlayerTwoChar = () => {
+    const _displayPlayerTwoChar = () => {
       chosenCharTwo.textContent = playerTwoChar;
     };
 

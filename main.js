@@ -88,6 +88,10 @@
       chosenCharTwo.textContent = playerTwoChar;
     };
 
+    const _startGame = () => {
+      
+    };
+
     return { init };
 
   })();

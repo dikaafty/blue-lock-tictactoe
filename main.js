@@ -71,4 +71,6 @@
 
   })();
 
+  displayController.init();
+
 })();

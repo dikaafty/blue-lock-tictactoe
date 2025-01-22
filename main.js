@@ -47,6 +47,13 @@
         });
       });
 
+      // Selecting player two character
+      playerTwoChars.forEach((char) => {
+        char.addEventListener("click", () => {
+          playerTwoChar = char.dataset.name;
+          console.log(playerTwoChar);
+        });
+      });
     };
 
   })();

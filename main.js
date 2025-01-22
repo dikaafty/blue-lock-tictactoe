@@ -15,7 +15,7 @@
       board[i] = val;
     }
 
-    return { getBoard, resetBoard };
+    return { getBoard, resetBoard, setBoardVal };
   })();
 
   const displayController = (() => {

@@ -59,6 +59,26 @@
       });
     };
 
+    const _highlightSelectedChar = () => {
+      // Highlighting player one character
+      playerOneChars.forEach((char) => {
+        char.addEventListener("click", () => {
+          playerOneChars.forEach(el => el.classList.remove("selected"));
+
+          char.classList.add("selected");
+        });
+      });
+
+      // Highlighting player two character
+      playerTwoChars.forEach((char) => {
+        char.addEventListener("click", () => {
+          playerTwoChars.forEach(el => el.classList.remove("selected"));
+
+          char.classList.add("selected");
+        });
+      });
+    };
+
     const _displayPlayerOneChar = () => {
       chosenCharOne.textContent = playerOneChar;
     };

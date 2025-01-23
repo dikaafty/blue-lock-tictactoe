@@ -1,7 +1,7 @@
 (function() {
 
   const gameboard = (() => {
-    let board = new Array(9);
+    let board = ["", "", "", "", "", "", "", "", ""];
 
     const getBoard = () => {
       return board;

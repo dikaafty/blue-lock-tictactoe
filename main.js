@@ -215,7 +215,12 @@
     };
 
     const checkWin = () => {
-
+      for(const [a, b, c] of gameboard.winningCombinations) {
+        if(checkLine(gameboard.getBoardItem(a), gameboard.getBoardItem(b), gameboard.getBoardItem(c))) {
+          playerTurnOutput.textContent = `${currentPlayer} won the game!`;
+          gameEnded = true;
+        }
+      }
     };
 
     return { init };

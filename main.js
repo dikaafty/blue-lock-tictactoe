@@ -210,13 +210,13 @@
       playerTurnOutput.textContent = `${currentPlayer}'s turn`;
     };
 
-    const checkLine = (a, b, c) => {
+    const _checkLine = (a, b, c) => {
       return a === b && b === c && a !== "";
     };
 
     const checkWin = () => {
       for(const [a, b, c] of gameboard.winningCombinations) {
-        if(checkLine(gameboard.getBoardItem(a), gameboard.getBoardItem(b), gameboard.getBoardItem(c))) {
+        if(_checkLine(gameboard.getBoardItem(a), gameboard.getBoardItem(b), gameboard.getBoardItem(c))) {
           playerTurnOutput.textContent = `${currentPlayer} won the game!`;
           gameEnded = true;
         }

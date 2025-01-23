@@ -74,6 +74,12 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #242424 !important;
 }
 
+.signImg {
+  width: 110px;
+  aspect-ratio: 1;
+  border-radius: 10px;
+}
+
 body {
   height: 130vh;
   background-image: url(blue-lock-images/background.jpeg);

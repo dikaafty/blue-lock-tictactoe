@@ -227,6 +227,10 @@
       }
     };
 
+    const _checkDraw = () => {
+      
+    };
+
     return { init };
 
   })();

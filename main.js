@@ -228,7 +228,15 @@
     };
 
     const _checkDraw = () => {
-      
+      if(gameEnded) return;
+
+      let boardIsFull = gameboard.getBoard().every((cell) => 
+        cell === playerOneChar || cell === playerTwoChar );
+
+      if(boardIsFull) {
+        playerTurnOutput.textContent = "THIS GAME IS A TIE!";
+        gameEnded = true;
+      }
     };
 
     return { init };

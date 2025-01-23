@@ -65,6 +65,7 @@
     let playerOneChar;
     let playerTwoChar;
     let currentPlayer;
+    let gameEnded = false;
 
     const init = () => {
       _bindEvents();

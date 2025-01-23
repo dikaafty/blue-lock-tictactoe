@@ -319,6 +319,10 @@ a:hover + .icon{
   background-color: #fff;
   border-radius: 10px;
   transition: all 200ms ease-in-out;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .cell:hover {

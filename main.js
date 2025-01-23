@@ -162,8 +162,23 @@
       return link;
     };
 
-    const operate = () => {
+    const operate = (e) => {
+      if(gameboard.getBoardItem(e.target.dataset.index) === "") {
+        gameboard.setBoardVal(e.target.dataset.index, currentPlayer);
+        console.log(gameboard.getBoard());
 
+        cells.forEach((cell) => {
+          if(cell.dataset.index === e.target.dataset.index) {
+            let imgEl = document.createElement("img");
+            imgEl.setAttribute("src", _setCurrentPlayerSign());
+            imgEl.setAttribute("class", "signImg");
+            cell.appendChild(imgEl);
+          }
+        });
+
+        _togglePlayer();
+        _displayPlayerTurn();
+      }
     };
 
     const _togglePlayer = () => {

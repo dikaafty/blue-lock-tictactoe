@@ -122,10 +122,10 @@
       }
     };
 
-    const _setPlayerOneSign = () => {
+    const _setCurrentPlayerSign = () => {
       let link;
 
-      switch (playerOneChar) {
+      switch (currentPlayer) {
         case "Yoichi Isagi":
           link = "./blue-lock-images/isagi-pfp.jpg";
           break;
@@ -141,15 +141,7 @@
         case "Seishiro Nagi":
           link = "./blue-lock-images/nagi-pfp.jpg";
           break;
-      }
 
-      return link;
-    };
-
-    const _setPlayerTwoSign = () => {
-      let link;
-
-      switch (playerTwoChar) {
         case "Itoshi Rin":
           link = "./blue-lock-images/rin-pfp.jpg";
           break;

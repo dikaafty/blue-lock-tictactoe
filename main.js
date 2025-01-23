@@ -35,7 +35,7 @@
       board[i] = val;
     }
 
-    return { getBoard, getBoardItem, resetBoard, setBoardVal };
+    return { winningCombinations, getBoard, getBoardItem, resetBoard, setBoardVal };
   })();
 
   const displayController = (() => {
@@ -215,7 +215,7 @@
     };
 
     const checkWin = () => {
-      
+
     };
 
     return { init };

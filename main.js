@@ -214,7 +214,7 @@
       return a === b && b === c && a !== "";
     };
 
-    const checkWin = () => {
+    const _checkWin = () => {
       for(const [a, b, c] of gameboard.winningCombinations) {
         if(_checkLine(gameboard.getBoardItem(a), gameboard.getBoardItem(b), gameboard.getBoardItem(c))) {
           playerTurnOutput.textContent = `${currentPlayer} won the game!`;

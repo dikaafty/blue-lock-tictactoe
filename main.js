@@ -198,6 +198,7 @@
         });
 
         _checkWin();
+        _checkDraw();
 
         if(!gameEnded) {
           _togglePlayer();

@@ -197,6 +197,8 @@
           }
         });
 
+        _checkWin();
+
         _togglePlayer();
         _displayPlayerTurn();
       }

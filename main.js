@@ -199,8 +199,10 @@
 
         _checkWin();
 
-        _togglePlayer();
-        _displayPlayerTurn();
+        if(!gameEnded) {
+          _togglePlayer();
+          _displayPlayerTurn();
+        }
       }
     };
 

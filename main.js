@@ -58,6 +58,10 @@
 
     const _bindEvents = () => {
       startGameBtn.addEventListener("click", _startGame);
+
+      cells.forEach((cell) => {
+        cell.addEventListener("click", operate);
+      });
     };
 
     const _setPlayerChar = () => {

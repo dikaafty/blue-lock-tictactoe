@@ -210,6 +210,10 @@
       playerTurnOutput.textContent = `${currentPlayer}'s turn`;
     };
 
+    const checkLine = (a, b, c) => {
+      return a === b && b === c && a !== "";
+    };
+
     return { init };
 
   })();

@@ -259,6 +259,10 @@
       displayController.playerOneChars.forEach((char) => {
         char.addEventListener("click", _setSelectedCharVoice);
       });
+
+      displayController.playerTwoChars.forEach((char) => {
+        char.addEventListener("click", _setSelectedCharVoice);
+      });
     };
 
     const _setBacksound = () => {

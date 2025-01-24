@@ -264,4 +264,6 @@
     return { init };
   })();
 
+  audioController.init();
+
 })();

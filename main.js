@@ -299,6 +299,10 @@
           voiceSrc = "./blue-lock-audio/barou-voice.mp3";
           break;
       }
+
+      const playSelectedCharVoice = () => {
+        
+      };
     };
 
     return { init };

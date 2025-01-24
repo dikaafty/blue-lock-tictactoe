@@ -261,6 +261,10 @@
       backsound.play();
     };
 
+    const _setSelectedCharVoice = () => {
+
+    };
+
     return { init };
   })();
 

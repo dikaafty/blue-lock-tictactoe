@@ -252,7 +252,7 @@
     };
 
     const _bindEvents = () => {
-      
+      displayController.startGameBtn.addEventListener("click", _setBacksound);
     };
 
     const _setBacksound = () => {

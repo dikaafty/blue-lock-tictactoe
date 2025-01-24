@@ -255,6 +255,10 @@
 
     const _bindEvents = () => {
       displayController.startGameBtn.addEventListener("click", _setBacksound);
+
+      displayController.playerOneChars.forEach((char) => {
+        char.addEventListener("click", _setSelectedCharVoice);
+      });
     };
 
     const _setBacksound = () => {

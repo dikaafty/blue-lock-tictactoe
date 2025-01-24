@@ -248,7 +248,7 @@
 
   const audioController = (() => {
     const init = () => {
-
+      _bindEvents();
     };
 
     const _bindEvents = () => {

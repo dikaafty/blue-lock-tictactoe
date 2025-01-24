@@ -240,7 +240,7 @@
       }
     };
 
-    return { init, playerOneChars, playerTwoChars };
+    return { init, playerOneChars, playerTwoChars, startGameBtn };
 
   })();
 
@@ -248,7 +248,7 @@
 
   const audioController = (() => {
     const init = () => {
-      
+
     };
 
     const _setBacksound = () => {

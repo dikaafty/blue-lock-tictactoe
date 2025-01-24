@@ -300,9 +300,13 @@
           break;
       }
 
-      const playSelectedCharVoice = () => {
-        
-      };
+      if(currentVoice) {
+        currentVoice.pause();
+        currentVoice.currentTime = 0;
+      }
+
+      currentVoice = new Audio(voiceSrc);
+      currentVoice.play();
     };
 
     return { init };

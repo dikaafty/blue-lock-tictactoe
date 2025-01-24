@@ -263,8 +263,42 @@
       backsound.play();
     };
 
-    const _setSelectedCharVoice = () => {
+    const _setSelectedCharVoice = (e) => {
+      let voiceSrc;
+
+      switch (e.target.dataset.name) {
+        case "Yoichi Isagi":
+          voiceSrc = "./blue-lock-audio/isagi-voice.mp3";
+          break;
       
+        case "Michael Kaiser":
+          voiceSrc = "./blue-lock-audio/kaiser-voice.mp3";
+          break;
+
+        case "Rensuke Kunigami":
+          voiceSrc = "./blue-lock-audio/kunigami-voice.mp3";
+          break;
+
+        case "Seishiro Nagi":
+          voiceSrc = "./blue-lock-audio/nagi-voice.mp3";
+          break;
+
+        case "Itoshi Rin":
+          voiceSrc = "./blue-lock-audio/rin-voice.mp3";
+          break;
+
+        case "Tabito Karasu":
+          voiceSrc = "./blue-lock-audio/karasu-voice.mp3";
+          break;
+
+        case "Ryusei Shidou":
+          voiceSrc = "./blue-lock-audio/shidou-voice.mp3";
+          break;
+
+        case "Shouei Barou":
+          voiceSrc = "./blue-lock-audio/barou-voice.mp3";
+          break;
+      }
     };
 
     return { init };

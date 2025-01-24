@@ -247,6 +247,8 @@
   displayController.init();
 
   const audioController = (() => {
+    let currentVoice = null;
+
     const init = () => {
       _bindEvents();
     };
@@ -262,7 +264,7 @@
     };
 
     const _setSelectedCharVoice = () => {
-
+      
     };
 
     return { init };

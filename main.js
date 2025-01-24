@@ -246,4 +246,8 @@
 
   displayController.init();
 
+  const audioController = (() => {
+    
+  })();
+
 })();

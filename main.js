@@ -240,14 +240,14 @@
       }
     };
 
-    return { init };
+    return { init, playerOneChars, playerTwoChars };
 
   })();
 
   displayController.init();
 
   const audioController = (() => {
-    
+
   })();
 
 })();

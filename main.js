@@ -260,6 +260,8 @@
       backsound.loop = true;
       backsound.play();
     };
+
+    return { init };
   })();
 
 })();

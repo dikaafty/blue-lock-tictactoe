@@ -248,11 +248,13 @@
 
   const audioController = (() => {
     const init = () => {
-
+      
     };
 
     const _setBacksound = () => {
-      
+      const backsound = new Audio("./blue-lock-audio/blue-lock-backsound.mp3");
+      backsound.loop = true;
+      backsound.play();
     };
   })();
 

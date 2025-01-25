@@ -384,7 +384,7 @@
       currentVoice.play();
     };
 
-    return { init };
+    return { init, getBacksound };
   })();
 
   audioController.init();

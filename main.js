@@ -82,6 +82,7 @@
 
     const _bindEvents = () => {
       startGameBtn.addEventListener("click", _startGame);
+      changeCharBtn.addEventListener("click", _changeCharacter);
 
       cells.forEach((cell) => {
         cell.addEventListener("click", operate);

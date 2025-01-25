@@ -359,3 +359,10 @@ dialog {
   aspect-ratio: 1;
   object-fit: contain;
 }
+
+.winnerAnnounce {
+  font-family: "impactregular";
+  font-size: 2rem;
+  text-align: center;
+  margin: 25px 0;
+}

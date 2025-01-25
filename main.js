@@ -277,6 +277,9 @@
       // Reset game ended variable
       gameEnded = false;
 
+      // Reset is tie variable
+      isTie = false;
+
       // Remove selected class
       playerOneChars.forEach(el => el.classList.remove("selected"));
       playerTwoChars.forEach(el => el.classList.remove("selected"));
@@ -373,6 +376,9 @@
 
       // Reset game ended variable
       gameEnded = false;
+
+      // Reset is tie variable
+      isTie = false;
 
       // Remove img sign in board's cells
       const imgInBoard = boardWrapper.querySelectorAll("img");

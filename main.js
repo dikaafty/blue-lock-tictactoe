@@ -218,7 +218,9 @@
         if(!gameEnded) {
           _togglePlayer();
           _displayPlayerTurn();
-        } 
+        } else {
+          reset();
+        }
       }
     };
 
@@ -256,7 +258,33 @@
     };
 
     const reset = () => {
-      
+      // Reset board
+      gameboard.resetBoard();
+
+      // Reset players character
+      playerOneChar = undefined;
+      playerTwoChar = undefined;
+      currentPlayer = undefined;
+
+      // Reset game ended variable
+      gameEnded = false;
+
+      // Remove selected class
+      playerOneChars.forEach(el => el.classList.remove("selected"));
+      playerTwoChars.forEach(el => el.classList.remove("selected"));
+
+      // Reset chosen character output
+      chosenCharOne.textContent = "WAITING PLAYER 1 TO CHOOSE";
+      chosenCharTwo.textContent = "WAITING PLAYER 2 TO CHOOSE";
+
+      // Remove img sign in board's cells
+      const imgInBoard = boardWrapper.querySelectorAll("img");
+      imgInBoard.forEach((img) => {
+        img.remove();
+      });
+
+      // Reset player's turn
+      playerTurnOutput.textContent = `${playerOneChar}'s turn`;
     };
 
     const _setDialogWinnerImg = () => {

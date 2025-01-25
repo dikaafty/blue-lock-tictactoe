@@ -371,7 +371,7 @@ dialog[open] {
   font-family: "impactregular";
   font-size: 2rem;
   text-align: center;
-  margin: 25px 0;
+  margin: 25px 0 15px;
 }
 
 .btnContainer {

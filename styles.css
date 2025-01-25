@@ -344,7 +344,7 @@ a:hover + .icon{
 
 dialog {
   width: 500px;
-  height: 650px;
+  min-height: fit-content;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   overflow-y: hidden;
@@ -363,8 +363,9 @@ dialog[open] {
 
 .winnerImg {
   width: 450px;
-  aspect-ratio: 1;
-  object-fit: contain;
+  min-height: fit-content;
+  object-fit: cover;
+  margin: 0 auto;
 }
 
 .winnerAnnounce {

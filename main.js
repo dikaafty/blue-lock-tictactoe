@@ -255,7 +255,7 @@
       }
     };
 
-    const _setWinnerImg = () => {
+    const _setDialogWinnerImg = () => {
       let imgSrc;
 
       switch (currentPlayer) {

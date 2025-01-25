@@ -340,7 +340,7 @@ a:hover + .icon{
 
 dialog {
   width: 500px;
-  height: auto;
+  height: 650px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   position: absolute;

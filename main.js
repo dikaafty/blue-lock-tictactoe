@@ -287,6 +287,11 @@
       playerTurnOutput.textContent = `${playerOneChar}'s turn`;
     };
 
+    const modifyDialog = () => {
+      _setDialogWinnerImg();
+      _setDialogWinnerChar();
+    };
+
     const _setDialogWinnerImg = () => {
       let imgSrc;
 

@@ -349,6 +349,13 @@ dialog {
   transform: translateX(-50%) translateY(-50%);
 }
 
+dialog[open] {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .winnerImg {
   width: 450px;
   aspect-ratio: 1;

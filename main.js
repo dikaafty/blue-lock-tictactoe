@@ -218,7 +218,7 @@
         if(!gameEnded) {
           _togglePlayer();
           _displayPlayerTurn();
-        }
+        } 
       }
     };
 
@@ -296,7 +296,7 @@
     };
 
     const _setDialogWinnerChar = () => {
-      
+      winnerChar.textContent = currentPlayer;
     };
 
     return { init, playerOneChars, playerTwoChars, getPlayerOneChar, getPlayerTwoChar, startGameBtn };

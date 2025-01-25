@@ -372,3 +372,16 @@ dialog {
   justify-content: center;
   align-items: center;
 }
+
+.btnContainer button {
+  width: 170px;
+  height: 55px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  font-family: "impactregular";
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}

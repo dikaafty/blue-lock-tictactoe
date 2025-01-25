@@ -346,8 +346,28 @@
       dialog.close();
     };
 
-    const _rematch = () => {
-      
+    const _rematch = (e) => {
+      e.preventDefault();
+
+      // Reset board
+      gameboard.resetBoard();
+
+      // Reset game ended variable
+      gameEnded = false;
+
+      // Remove img sign in board's cells
+      const imgInBoard = boardWrapper.querySelectorAll("img");
+      imgInBoard.forEach((img) => {
+        img.remove();
+      });
+
+      // Reset current player
+      currentPlayer = playerOneChar;
+
+      // Reset player's turn
+      _displayPlayerTurn();
+
+      dialog.close();
     };
 
     return { init, playerOneChars, playerTwoChars, getPlayerOneChar, getPlayerTwoChar, startGameBtn };

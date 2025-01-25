@@ -255,6 +255,10 @@
       }
     };
 
+    const reset = () => {
+      
+    };
+
     const _setDialogWinnerImg = () => {
       let imgSrc;
 

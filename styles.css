@@ -337,3 +337,12 @@ a:hover + .icon{
 }
 
 /* GAME PLAYING STYLING SECTION END */
+
+dialog {
+  width: 500px;
+  aspect-ratio: 1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}

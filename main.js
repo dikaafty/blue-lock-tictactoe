@@ -218,8 +218,6 @@
         if(!gameEnded) {
           _togglePlayer();
           _displayPlayerTurn();
-        } else {
-          reset();
         }
       }
     };

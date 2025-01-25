@@ -222,6 +222,11 @@
           _togglePlayer();
           _displayPlayerTurn();
         }
+
+        if(gameEnded && !isTie) {
+          modifyDialog();
+          dialog.showModal();
+        }
       }
     };
 

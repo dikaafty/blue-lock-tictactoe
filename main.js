@@ -107,6 +107,10 @@
       return playerOneChar;
     };
 
+    const getPlayerTwoChar = () => {
+      return playerTwoChar;
+    };
+
     const _highlightSelectedChar = () => {
       // Highlighting player one character
       playerOneChars.forEach((char) => {
@@ -244,7 +248,7 @@
       }
     };
 
-    return { init, playerOneChars, playerTwoChars, getPlayerOneChar, startGameBtn };
+    return { init, playerOneChars, playerTwoChars, getPlayerOneChar, getPlayerTwoChar, startGameBtn };
 
   })();
 

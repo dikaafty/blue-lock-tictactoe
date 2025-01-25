@@ -65,6 +65,7 @@
     // Dialog element & its children
     const dialog = document.querySelector("dialog");
     const winnerImg = document.querySelector(".winnerImg");
+    const winnerAnnounce = document.querySelector(".winnerAnnounce");
     const winnerChar = document.querySelector(".winnerChar");
     const rematchBtn = document.querySelector(".rematchBtn");
     const changeCharBtn = document.querySelector(".changeCharBtn");

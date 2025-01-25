@@ -344,7 +344,7 @@ dialog {
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   position: absolute;
-  top: 50%;
+  top: 65%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
 }

@@ -227,6 +227,9 @@
         if(gameEnded && !isTie) {
           _modifyDialog();
           dialog.showModal();
+        } else if(gameEnded && isTie) {
+          _handleDialogTie();
+          dialog.showModal();
         }
       }
     };

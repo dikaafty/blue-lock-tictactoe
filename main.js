@@ -73,6 +73,7 @@
     let playerTwoChar;
     let currentPlayer;
     let gameEnded = false;
+    let isTie = false;
 
     const init = () => {
       _bindEvents();
@@ -337,7 +338,7 @@
     };
 
     const handleDialogTie = () => {
-      
+
     };
 
     const _changeCharacter = (e) => {

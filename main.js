@@ -300,6 +300,7 @@
 
     const _modifyDialog = () => {
       _setDialogWinnerImg();
+      _resetDialogWinnerAnnounce();
       _setDialogWinnerChar();
     };
 

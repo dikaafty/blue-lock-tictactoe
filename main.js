@@ -295,6 +295,10 @@
       winnerImg.setAttribute("src", imgSrc);
     };
 
+    const _setDialogWinnerChar = () => {
+      
+    };
+
     return { init, playerOneChars, playerTwoChars, getPlayerOneChar, getPlayerTwoChar, startGameBtn };
 
   })();

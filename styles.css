@@ -353,3 +353,9 @@ dialog {
   justify-content: center;
   align-items: center;
 }
+
+.winnerImg {
+  width: 450px;
+  aspect-ratio: 1;
+  object-fit: contain;
+}

@@ -336,6 +336,10 @@
       winnerChar.textContent = currentPlayer;
     };
 
+    const handleDialogTie = () => {
+      
+    };
+
     const _changeCharacter = (e) => {
       e.preventDefault();
       reset();

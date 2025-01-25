@@ -28,7 +28,7 @@
     };
 
     const resetBoard = () => {
-      board = new Array(9);
+      board = ["", "", "", "", "", "", "", "", ""];
     };
 
     const setBoardVal = (i, val) => {

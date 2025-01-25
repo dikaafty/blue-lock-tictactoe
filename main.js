@@ -329,8 +329,20 @@
       winnerChar.textContent = currentPlayer;
     };
 
-    const _changeCharacter = () => {
-      
+    const _changeCharacter = (e) => {
+      e.preventDefault();
+      reset();
+      audioController.getBacksound().pause();
+
+      // Add hide class to playing section
+      boardWrapper.classList.add("hide");
+      playerTurnOutput.classList.add("hide");
+
+      // Remove hide class from starting section
+      choosePlayerContainer.classList.remove("hide");
+      startGameBtnWrapper.classList.remove("hide");
+
+      dialog.close();
     };
 
     return { init, playerOneChars, playerTwoChars, getPlayerOneChar, getPlayerTwoChar, startGameBtn };

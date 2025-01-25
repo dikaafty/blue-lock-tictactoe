@@ -255,6 +255,7 @@
       if(boardIsFull) {
         playerTurnOutput.textContent = "THIS GAME IS A TIE!";
         gameEnded = true;
+        isTie = true;
       }
     };
 

@@ -306,6 +306,7 @@
   displayController.init();
 
   const audioController = (() => {
+    let backsound = null;
     let currentVoice = null;
 
     const init = () => {
@@ -327,7 +328,7 @@
     const _setBacksound = () => {
       if(displayController.getPlayerOneChar() !== undefined && 
          displayController.getPlayerTwoChar() !== undefined) {
-          const backsound = new Audio("./blue-lock-audio/blue-lock-backsound.mp3");
+          backsound = new Audio("./blue-lock-audio/blue-lock-backsound.mp3");
           backsound.loop = true;
           backsound.play();
         }

@@ -346,6 +346,10 @@
       dialog.close();
     };
 
+    const _rematch = () => {
+      
+    };
+
     return { init, playerOneChars, playerTwoChars, getPlayerOneChar, getPlayerTwoChar, startGameBtn };
 
   })();

@@ -224,7 +224,7 @@
         }
 
         if(gameEnded && !isTie) {
-          modifyDialog();
+          _modifyDialog();
           dialog.showModal();
         }
       }
@@ -294,7 +294,7 @@
       playerTurnOutput.textContent = `${playerOneChar}'s turn`;
     };
 
-    const modifyDialog = () => {
+    const _modifyDialog = () => {
       _setDialogWinnerImg();
       _setDialogWinnerChar();
     };

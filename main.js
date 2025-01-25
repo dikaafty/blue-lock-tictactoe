@@ -334,6 +334,10 @@
         }
     };
 
+    const getBacksound = () => {
+      return backsound;
+    };
+
     const _setSelectedCharVoice = (e) => {
       let voiceSrc;
 

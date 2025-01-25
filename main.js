@@ -329,6 +329,10 @@
       winnerChar.textContent = currentPlayer;
     };
 
+    const _changeCharacter = () => {
+      
+    };
+
     return { init, playerOneChars, playerTwoChars, getPlayerOneChar, getPlayerTwoChar, startGameBtn };
 
   })();

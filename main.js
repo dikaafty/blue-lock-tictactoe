@@ -256,7 +256,43 @@
     };
 
     const _setWinnerImg = () => {
-      
+      let imgSrc;
+
+      switch (currentPlayer) {
+        case "Yoichi Isagi":
+          imgSrc = "./blue-lock-images/isagi-goal.jpg";
+          break;
+
+        case "Michael Kaiser":
+          imgSrc = "./blue-lock-images/kaiser-goal.jpg";
+          break;
+
+        case "Rensuke Kunigami":
+          imgSrc = "./blue-lock-images/kunigami-goal.jpg";
+          break;
+
+        case "Seishiro Nagi":
+          imgSrc = "./blue-lock-images/nagi-goal.jpg";
+          break;
+
+        case "Itoshi Rin":
+          imgSrc = "./blue-lock-images/rin-goal.jpg";
+          break;
+
+        case "Tabito Karasu":
+          imgSrc = "./blue-lock-images/karasu-goal.jpg";
+          break;
+
+        case "Ryusei Shidou":
+          imgSrc = "./blue-lock-images/shidou-goal.png";
+          break;
+
+        case "Shouei Barou":
+          imgSrc = "./blue-lock-images/barou-goal.jpg";
+          break;
+      }
+
+      winnerImg.setAttribute("src", imgSrc);
     };
 
     return { init, playerOneChars, playerTwoChars, getPlayerOneChar, getPlayerTwoChar, startGameBtn };

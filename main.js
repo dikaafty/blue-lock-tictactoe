@@ -343,6 +343,10 @@
       winnerImg.setAttribute("src", imgSrc);
     };
 
+    const _resetDialogWinnerAnnounce = () => {
+      winnerAnnounce.textContent = `${currentPlayer} won the game!`;
+    };
+
     const _setDialogWinnerChar = () => {
       winnerChar.textContent = currentPlayer;
     };

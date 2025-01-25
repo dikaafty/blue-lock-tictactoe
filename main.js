@@ -62,6 +62,13 @@
     // Player's turn output element
     const playerTurnOutput = document.querySelector(".playerTurn");
 
+    // Dialog element & its children
+    const dialog = document.querySelector("dialog");
+    const winnerImg = document.querySelector(".winnerImg");
+    const winnerChar = document.querySelector(".winnerChar");
+    const rematchBtn = document.querySelector(".rematchBtn");
+    const changeCharBtn = document.querySelector(".changeCharBtn");
+
     let playerOneChar;
     let playerTwoChar;
     let currentPlayer;

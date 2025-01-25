@@ -255,6 +255,10 @@
       }
     };
 
+    const _setWinnerImg = () => {
+      
+    };
+
     return { init, playerOneChars, playerTwoChars, getPlayerOneChar, getPlayerTwoChar, startGameBtn };
 
   })();

@@ -347,6 +347,7 @@ dialog {
   height: 650px;
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
+  overflow-y: hidden;
   position: absolute;
   top: 65%;
   left: 50%;

@@ -357,7 +357,7 @@
 
     const _handleDialogTie = () => {
       winnerImg.setAttribute("src", "./blue-lock-images/tie-image.jpg");
-      winnerAnnounce.textContent = "THIS GAME IS A TIE";
+      winnerAnnounce.textContent = "THIS GAME IS A TIE!";
     };
 
     const _changeCharacter = (e) => {

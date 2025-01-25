@@ -347,7 +347,7 @@
       winnerChar.textContent = currentPlayer;
     };
 
-    const handleDialogTie = () => {
+    const _handleDialogTie = () => {
       winnerImg.setAttribute("src", "./blue-lock-images/tie-image.jpg");
       winnerAnnounce.textContent = "THIS GAME IS A TIE";
     };
